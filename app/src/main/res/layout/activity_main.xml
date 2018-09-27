@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/root_layout_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/football_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/football_counter"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/text_black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/club_name_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/premier_league"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/premier_league"
+            android:fontFamily="sans-serif-light"
+            android:paddingBottom="40dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/la_liga"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/la_liga"
+            android:fontFamily="sans-serif-light"
+            android:paddingBottom="40dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/text_color"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/bundes_liga"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/bundes_liga"
+            android:fontFamily="sans-serif-light"
+            android:paddingBottom="40dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/text_color"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_tag_vertical"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/club_name_layout"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/premier_click"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/view_tag_vertical"
+        android:background="@color/premier_league_one">
+
+        <TextView
+            android:id="@+id/premier_league_text_scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="18dp"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/la_liga_click"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/premier_click"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/view_tag_vertical"
+        android:background="@color/la_liga_one">
+
+        <TextView
+            android:id="@+id/la_liga_text_scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/la_liga_click"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/view_tag_vertical"
+        android:background="@color/bundes_liga_one">
+
+
+        <TextView
+            android:id="@+id/bundesliga_text_scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/bundes_liga_one"
+            android:padding="6dp"
+            android:textColor="@color/text_white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

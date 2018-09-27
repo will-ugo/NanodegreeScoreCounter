@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color">#000000</color>
+    <color name="view_tag_background">#a9a9a9</color>
+    <color name="root_layout_background">#fffdd0</color>
+    <color name="premier_league">#38003c</color>
+    <color name="premier_league_one">#00ff85</color>
+    <color name="la_liga">#87CEEB</color>
+    <color name="la_liga_one">#C71585</color>
+    <color name="la_liga_two">#FFD700</color>
+    <color name="la_liga_three">#FF4500</color>
+    <color name="bundes_liga">#F3AC26</color>
+    <color name="bundes_liga_one">#060604</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#000000</color>
+    <color name="prem_two">#e90052</color>
+    <color name="prem_three">#04f5ff</color>
+    <color name="arsenal_goal">#EF0107</color>
+    <color name="mancity_goal">#6CABDD</color>
+    <color name="barcelona_goal">#A50044</color>
+    <color name="madrid_goal">#FEBE10</color>
+    <color name="bundes_liga_two">#FFFFFF</color>
+    <color name="bayern_goal">#DC052D</color>
+    <color name="dortmund_goal">#FDE100</color>
+</resources>
